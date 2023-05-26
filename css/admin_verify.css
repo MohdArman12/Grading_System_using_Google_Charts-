@@ -1,0 +1,43 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	min-height:100vh;
+	background-image:linear-gradient(120deg,#00ffff,#0000ff	);
+}
+h1,h2,h3{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.main{
+	background-color:;
+	height:600px;
+	width:70%;
+	margin-left:30%;
+	background:linear-gradient(130deg,	#FFDEAD,	#F5F5DC);
+	border-radius:20px;
+}
+.main svg{
+	margin-top:20px;
+	padding-bottom:20px;
+}
+#btn{
+	height:40px;
+	width:200px;
+	display:inline-block;
+	border-radius:5px;
+	border:1px solid #000;
+	font-size:17px;
+	
+}
+#btn:hover{
+	font-weight:130%;
+	opacity:10;
+	background:linear-gradient(110deg,	#00CED1,	#00FFFF,	#7FFFD4);
+	transition:2s;
+	}
+table{
+	margin-left:28px;
+	margin-top:20px;
+}

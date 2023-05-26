@@ -1,0 +1,27 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	display:flex;
+	min-height:100vh;
+}
+.container{
+	position:relative;
+	width:400px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.container .tick{
+	width:200px;
+}
+.container .tick path{
+	fill:tr;
+	stroke:10;
+	
+}
+.container .tick #Layer_1 path{
+		stroke-dasharray:1200;
+		stroke-dashoffset:1200;	
+}

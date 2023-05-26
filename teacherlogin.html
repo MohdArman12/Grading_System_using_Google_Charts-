@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<link href="css/admin.css" rel="stylesheet" >
+
+
+<head>
+<meta charset="utf-8">
+<title>Welcome!!</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+</head>
+<body>
+
+<form action="verifyteacher.php" class="login-form" method="POST" >
+<h1>Teacher Login</h1>
+<div class="txtb">
+<input type="text" name="name" autocomplete="off" required>
+<span data-placeholder="Username"></span>
+</div>
+<div class="txtb">
+<input type="password" name="password" required>
+<span data-placeholder="Password"></span>
+</div>
+<input type="Submit" class="logbtn" name="submit" value="Login"><br><br>
+</form>
+<script type="text/javascript">
+$(".txtb input").on("focus",function(){
+$(this).addClass("focus");
+});
+$(".txtb input").on("blur",function(){
+if($(this).val()=="")
+$(this).removeClass("focus");
+});
+
+</script>
+</body>
+</html>
